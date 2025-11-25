@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-lg font-semibold">
-              &copy; {new Date().getFullYear()} CodeCanvas
+              &copy; {new Date().getFullYear()} PairCode
             </p>
             <p className="text-sm text-gray-400 mt-1">
               Collaborate. Code. Create.

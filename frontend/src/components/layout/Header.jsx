@@ -28,7 +28,7 @@ const Header = ({ transparent = false }) => {
             alt="Code Canvas Logo" 
           />
           <span className="text-2xl font-bold text-white">
-            Code Canvas
+            PairCode
           </span>
         </Link>
         

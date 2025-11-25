@@ -57,7 +57,7 @@ function Register() {
           <h1 className="text-3xl font-bold text-center mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Create Account
           </h1>
-          <p className="text-center text-gray-600 mb-6">Join Code Canvas today</p>
+          <p className="text-center text-gray-600 mb-6">Join PairCode today</p>
 
           {error && (
             <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">

@@ -44,7 +44,7 @@ mongoose.connect(process.env.MONGODB_URI)
 // Health check route
 app.get('/', (req, res) => {
   res.json({
-    message: 'CodeCanvas Backend is running!',
+    message: 'PairCode Backend is running!',
     version: '3.0.0',
     status: 'healthy'
   });

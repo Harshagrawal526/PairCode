@@ -1,7 +1,7 @@
 services:
   # Backend Service
   - type: web
-    name: codecanvas-backend
+    name: paircode-backend
     runtime: node
     region: oregon
     plan: free
@@ -22,7 +22,7 @@ services:
 
   # Frontend Service
   - type: web
-    name: codecanvas-frontend
+    name: paircode-frontend
     runtime: static
     region: oregon
     plan: free

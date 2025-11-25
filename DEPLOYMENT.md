@@ -1,6 +1,6 @@
-# 🚀 CodeCanvas Deployment Guide
+# 🚀 PairCode Deployment Guide
 
-This guide will help you deploy your CodeCanvas application to **Render** for free.
+This guide will help you deploy your PairCode application to **Render** for free.
 
 ## 📋 Prerequisites
 
@@ -23,7 +23,7 @@ We'll deploy two services:
 If you haven't already, push your code to GitHub:
 
 ```bash
-cd /home/harsh/Desktop/CodeCanvas
+cd /home/harsh/Desktop/PairCode
 git init
 git add .
 git commit -m "Prepare for deployment"
@@ -57,7 +57,7 @@ Ensure these files exist in your repository:
 
    | Field | Value |
    |-------|-------|
-   | **Name** | `codecanvas-backend` (or your choice) |
+   | **Name** | `paircode-backend` (or your choice) |
    | **Region** | Choose closest to you |
    | **Branch** | `main` |
    | **Root Directory** | `backend` |
@@ -73,7 +73,7 @@ In the **Environment** section, add these variables:
 | Key | Value |
 |-----|-------|
 | `NODE_ENV` | `production` |
-| `MONGODB_URI` | `mongodb+srv://codecanvas:8520@cluster0.tot4jxt.mongodb.net/codecanvas?appName=Cluster0` |
+| `MONGODB_URI` | `mongodb+srv://paircode:8520@cluster0.tot4jxt.mongodb.net/paircode?appName=Cluster0` |
 | `JWT_SECRET` | `bb02f2e6907eee6ff9ba4a6d376b31b5` |
 | `JWT_EXPIRE` | `7d` |
 | `FRONTEND_URL` | Leave empty for now (we'll add this after frontend deployment) |
@@ -85,7 +85,7 @@ In the **Environment** section, add these variables:
 
 1. Click **"Create Web Service"**
 2. Wait for deployment (5-10 minutes)
-3. Once deployed, copy your backend URL: `https://codecanvas-backend-XXXX.onrender.com`
+3. Once deployed, copy your backend URL: `https://paircode-backend-XXXX.onrender.com`
 
 > [!NOTE]
 > Free tier services may spin down after inactivity. First request might take 50+ seconds.
@@ -120,7 +120,7 @@ git push
 
    | Field | Value |
    |-------|-------|
-   | **Name** | `codecanvas-frontend` (or your choice) |
+   | **Name** | `paircode-frontend` (or your choice) |
    | **Branch** | `main` |
    | **Root Directory** | `frontend` |
    | **Build Command** | `npm install && npm run build` |
@@ -139,7 +139,7 @@ If you want to override environment variables:
 
 1. Click **"Create Static Site"**
 2. Wait for deployment (3-5 minutes)
-3. Copy your frontend URL: `https://codecanvas-frontend-XXXX.onrender.com`
+3. Copy your frontend URL: `https://paircode-frontend-XXXX.onrender.com`
 
 ---
 
@@ -166,7 +166,7 @@ Visit: `https://your-backend-url.onrender.com`
 You should see:
 ```json
 {
-  "message": "CodeCanvas Backend is running!",
+  "message": "PairCode Backend is running!",
   "version": "3.0.0",
   "status": "healthy"
 }
@@ -336,7 +336,7 @@ VITE_SOCKET_URL=https://your-backend.onrender.com
 
 ## 🎉 Success!
 
-Your CodeCanvas application is now live! Share your deployed URL with others to collaborate in real-time.
+Your PairCode application is now live! Share your deployed URL with others to collaborate in real-time.
 
 **Your URLs:**
 - 🎨 Frontend: `https://your-frontend.onrender.com`

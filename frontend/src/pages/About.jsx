@@ -10,20 +10,20 @@ function About() {
       <main className="flex-1 px-6 py-12">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-8">
-            About Code Canvas
+            About PairCode
           </h1>
 
           <section className="bg-white/80 backdrop-blur-sm border border-blue-100 rounded-2xl p-8 shadow-lg mb-8 transform hover:scale-105 transition-all duration-300">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              What is Code Canvas?
+              What is PairCode?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Code Canvas is a real-time collaborative code editor designed for web developers,
+              PairCode is a real-time collaborative code editor designed for web developers,
               students, and teams who want to code together seamlessly.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Whether you're pair programming, teaching, or working on a group project,
-              Code Canvas makes collaboration effortless with instant synchronization and
+              PairCode makes collaboration effortless with instant synchronization and
               live preview functionality.
             </p>
           </section>

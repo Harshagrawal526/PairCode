@@ -61,7 +61,7 @@ export const exportAsHTML = (html, css, js, filename = 'code-canvas-export.html'
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Canvas Export</title>
+  <title>PairCode Export</title>
   ${formattedCSS ? `<style>\n    ${formattedCSS.split('\n').join('\n    ')}\n  </style>` : ''}
 </head>
 <body>
